@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width,initial-scale=1.0">
+<title>Dental Care Website</title>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <section class="sub-header">
+        <nav>
+            <div><h1>DentalCare</h1></div>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="smile.html">SMILE GALLERY</a></li>
+                    <li><a href="index.html#blog">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="index.html#faq">FAQs</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="head">
+        <h1>Smile Gallery</h1>
+        </div>
+    </section>
+    <!-------------------Smile GAllery------------->
+    <div class="contained">
+
+        <h1 class="headings">Smile Gallery</h1>
+    
+        <div class="gallery">
+    
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/smile1.webp">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/smile2.webp">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/smile3.webp">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/smile4.webp">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/smile5.webp">
+            </div>
+            <div class="gallery-item">
+                <img class="gallery-image" src="images/smile6.webp">
+            </div>
+            
+    
+        </div>
+    
+    </div>
+    <!--------------------Effective Results------------>
+<section class="effect">
+    <h1>Effective Results</h1>
+<div class="imgSlider">
+
+</div>
+</section> 
+       
+    <!-----------------Contact------------->
+   <section class="location">
+    <h1>Contact Us</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3482.2118789850706!2d79.51849721504988!3d29.21732168219071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a09ae12a3dbca1%3A0x3cb668c0857bb807!2sVERMA%20DENTAL%20HOSPITAL%20-%20Best%20Dentist%20%7C%20Dental%20Clinic%20%7C%20Implant%20Center%20%7C%20Root%20Canal%20Treatment%20in%20Haldwani!5e0!3m2!1sen!2sin!4v1657809930490!5m2!1sen!2sin" width="600" height="450" 
+    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
+   <section class="contact-us">
+    <div class="row">
+        <div class="contact-col1">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>xyz road , abc building</h5>
+                    <p>Lucknow, Uttar Pradesh</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 27467328582</h5>
+                    <p>Monday to Saturday<br> 10AM to 6PM</p>
+                    
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>dentalcare@iei.com</h5>
+                    
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <h1>Schedule Appointment</h1>
+            <form action="index.php" method="post">
+                <input type="text" name="name" placeholder="Enter your Name" required>
+                <input type="text" name="address" placeholder="Enter your Address" required>
+                <input type="number" name="age" placeholder="Enter your Age" required>
+                <input type="number" name="phone" placeholder="Enter your Mobile No." required>
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="date" name="date" placeholder="Enter a date to schedule an appointment" required>
+                <button type="submit" class="new-btn">Book Appointment</button>
+            </form>
+
+        </div>
+    </div>
+   </section>
+     <!-----------------footer section-------------->
+   <footer class="footer">
+    <div class="footer-left">
+        <img src="images/logo.jpg">
+        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought
+            to have scrambled parts of Cicero's De Finibus</p>
+            <div class="socials">
+               <a href="#"> <i class="fab fa-facebook"></i></a>
+               <a href="#"> <i class="fab fa-twitter"></i></a>
+                <a href="#"> <i class="fab fa-instagram"></i></a>
+                    <a href="#"> <i class="fab fa-linkedin"></i></a>
+            </div>
+    </div>
+    <ul class="footer-right">
+        <li>
+            <h2>MENU</h2>
+            <ul class="boxe">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="smile.html">SMILE GALLERY</a></li>
+                <li><a href="index.html#blog">BLOGS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="index.html#faq">FAQs</a></li>
+            </ul>
+        </li>
+        <li>
+            <h2>Address</h2>
+            <ul class="boxe">
+                <li>xyz road , abc building</li>
+                <li>Lucknow, Uttar Pradesh</li>
+                <li>+91 27467328582</li>
+                <li>dentalcare@iei.com</li>
+                <li>Monday to Saturday<br> 10AM to 6PM</li>
+            </ul>
+        </li>
+    </ul>
+   </footer>
+   <section>
+    <div class="copy">
+        <p>Copyright @2022 | Dental Care All Rights Reserved | Dental Care Centre in Lucknow | Uttarpradesh , INDIA </p>
+    </div>
+   </section> 
+   <script>
+    let n=document.querySelector('new-btn');
+    n.addEventListener('click',showmsg);
+    function showmsg(){
+        alert("Your Appointment has been scheduled");
+    }
+   </script>
+   <script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+  </script>
+    
+</body>
+</html>
